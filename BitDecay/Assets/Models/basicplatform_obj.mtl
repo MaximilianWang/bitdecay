@@ -1,0 +1,13 @@
+# Blender MTL File: 'basicplatform.blend'
+# Material Count: 1
+
+newmtl basecolors
+Ns 74.509804
+Ka 0.015604 0.015604 0.015604
+Kd 0.545599 0.527048 0.598723
+Ks 0.800000 0.800000 0.800000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd E:\gamedev\unity\resourcesandstuff\landscape_asset_v2a\textures\basetexture.jpg
