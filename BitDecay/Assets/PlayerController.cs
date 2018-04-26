@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour, Character {
 
     //movement
     public float RUN_SPEED = 8;
@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour {
         float move = Input.GetAxis("Horizontal");
         animator.SetFloat("speed", Mathf.Abs(move));
 
-        float sneaking = Input.GetAxisRaw("Fire3");
+        float sneaking = Input.GetAxisRaw("Fire1");
 
         animator.SetFloat("sneaking", sneaking);
 
